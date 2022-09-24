@@ -7,7 +7,7 @@ import Employee from './Employee';
 import CountRedux from './CountRedux';
 import Movie from './Movie';
 import ViewImage from './ViewImage';
-
+import WatchMovie from './WatchMovie'
 const NavBar = () => {
   return (
     <>
@@ -40,6 +40,7 @@ const NavBar = () => {
             <Route path="*" element={<PageNotFound />} />
             <Route path="/countredux" element={<CountRedux />} />
             <Route path="/view" element={<ViewImage />} />
+            <Route path="/watchMovie" element={<WatchMovie />} />
           </Routes>
         </div>
       </BrowserRouter>
